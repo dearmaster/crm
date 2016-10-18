@@ -48,7 +48,7 @@
         <br>
         电&#12288;话&#12288;<input type="text" class="form-control" name="user.phone">
         <br>
-        生&#12288;日&#12288;<input class="form_datetime form-control" type="text" name="user.birthday" value="2016-03-07">
+        生&#12288;日&#12288;<input class="form_datetime form-control" type="text" name="user.birthday" value="2016-03-07" readonly>
         <br>
         &#12288;&#12288;&#12288;&#12288;
         <button type="reset">重置</button>&#12288;&#12288;&#12288;
