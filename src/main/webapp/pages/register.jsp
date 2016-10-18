@@ -44,7 +44,7 @@
         <br>
         <div class="input-append date form_datetime">
             生&#12288;日&#12288;
-            <input type="text" name="birthday" readonly>
+            <input type="text" name="user.birthday" readonly>
             <span class="add-on"><i class="icon-th"></i></span>
         </div>
         <br>
