@@ -54,7 +54,7 @@ public class UserActionTest extends StrutsSpringTestCase {
     @Test
     public void testRegisterUser() throws Exception {
 
-        proxy = getActionProxy("/user/register");
+        proxy = getActionProxy("/user/register.do");
         userAction = (UserAction) proxy.getAction();
 
         String result = proxy.execute();
@@ -72,7 +72,7 @@ public class UserActionTest extends StrutsSpringTestCase {
     }
 
     public void testLoadAll() throws Exception {
-        proxy = getActionProxy("/user/loadAll");
+        proxy = getActionProxy("/user/loadAll.do");
         userAction = (UserAction) proxy.getAction();
 
         String result = proxy.execute();

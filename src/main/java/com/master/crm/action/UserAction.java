@@ -43,8 +43,10 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
         return SUCCESS;
     }
 
-    public Set<User> loadAllUsers() throws Exception {
-        return userService.loadAll();
+    public String loadAllUser() throws Exception {
+        Set<User> users = userService.loadAll();
+        System.out.println(users);
+        return SUCCESS;
     }
 
     @Override
