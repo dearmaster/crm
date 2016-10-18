@@ -13,6 +13,7 @@
     <script src="<%= ctx%>/js/jquery-2.1.1.js"></script>
     <script src="<%= ctx%>/js/bootstrap.js"></script>
     <script src="<%= ctx%>/js/bootstrap-datetimepicker.js"></script>
+    <script src="<%= ctx%>/js/bootstrap-datetimepicker.zh-CN.js"></script>
 
     <script type="text/javascript">
         $(function () {
