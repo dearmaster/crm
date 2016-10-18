@@ -17,11 +17,16 @@
 
     <script type="text/javascript">
         $(function () {
-            $('.form_datetime').datetimepicker({
-                minView: "month",
+            $(".form_datetime").datetimepicker({
                 format: "yyyy-mm-dd",
-                language: 'zh-CN',
-                autoclose:true
+                autoclose: true,
+                todayBtn: true,
+                todayHighlight: true,
+                showMeridian: true,
+                pickerPosition: "bottom-left",
+                language: 'zh-CN',//中文，需要引用zh-CN.js包
+                startView: 2,//月视图
+                minView: 2//日期时间选择器所能够提供的最精确的时间选择视图
             });
         });
     </script>
@@ -43,11 +48,7 @@
         <br>
         电&#12288;话&#12288;<input type="text" class="form-control" name="user.phone">
         <br>
-        <div class="input-append date form_datetime">
-            生&#12288;日&#12288;
-            <input type="text" name="user.birthday" readonly>
-            <span class="add-on"><i class="icon-th"></i></span>
-        </div>
+        生&#12288;日&#12288;<input class="form_datetime form-control" type="text" value="2016-03-07">
         <br>
         &#12288;&#12288;&#12288;&#12288;
         <button type="reset">重置</button>&#12288;&#12288;&#12288;
