@@ -33,27 +33,30 @@
 </head>
 <body>
 <div>
-    <form class="form-inline" role="form" method="post" action="<%= ctx%>/user/register.do">
-        用户名&#12288;<input type="text" class="form-control" name="credential.username">
-        <br>
-        密&#12288;码&#12288;<input type="password" class="form-control" name="credential.password">
-        <br>
-        性&#12288;别&#12288;&#12288;&#12288;
-        <input type="radio" name="user.gender" value="男">男&#12288;&#12288;
-        <input type="radio" name="user.gender" value="女" checked>女
-        <br>
-        住&#12288;址&#12288;<input type="text" class="form-control" name="user.address">
-        <br>
-        邮&#12288;箱&#12288;<input type="text" class="form-control" name="user.mail">
-        <br>
-        电&#12288;话&#12288;<input type="text" class="form-control" name="user.phone">
-        <br>
-        生&#12288;日&#12288;<input class="form_datetime form-control" type="text" name="user.birthday" value="2016-03-07" readonly>
-        <br>
-        &#12288;&#12288;&#12288;&#12288;
-        <button type="reset">重置</button>&#12288;&#12288;&#12288;
-        <button type="submit">注册</button>
-    </form>
+    <div class="text-center">
+        <h1 class="text-danger">用户注册</h1>
+        <form class="form-inline" role="form" method="post" action="<%= ctx%>/user/register.do">
+            用户名&#12288;<input type="text" class="form-control" name="credential.username">
+            <br>
+            密&#12288;码&#12288;<input type="password" class="form-control" name="credential.password">
+            <br>
+            性&#12288;别&#12288;&#12288;&#12288;
+            <input type="radio" name="user.gender" value="男">男&#12288;&#12288;
+            <input type="radio" name="user.gender" value="女" checked>女
+            <br>
+            住&#12288;址&#12288;<input type="text" class="form-control" name="user.address">
+            <br>
+            邮&#12288;箱&#12288;<input type="text" class="form-control" name="user.mail">
+            <br>
+            电&#12288;话&#12288;<input type="text" class="form-control" name="user.phone">
+            <br>
+            生&#12288;日&#12288;<input class="form_datetime form-control" type="text" name="user.birthday" value="2016-03-07" readonly>
+            <br>
+            &#12288;&#12288;&#12288;&#12288;
+            <button type="reset">重置</button>&#12288;&#12288;&#12288;
+            <button type="submit">注册</button>
+        </form>
+    </div>
 </div>
 </body>
 </html>
