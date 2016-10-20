@@ -1,8 +1,10 @@
 package com.master.crm.action;
 
+import com.master.crm.enums.ResourceBookType;
 import com.master.crm.model.Credential;
 import com.master.crm.model.User;
 import com.master.crm.service.UserService;
+import com.master.crm.util.ResourceBook;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.log4j.Logger;
 import org.apache.struts2.interceptor.ServletRequestAware;
@@ -21,12 +23,16 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
 
     @Autowired
     private UserService userService;
+    @Autowired
+    private ResourceBook resourceBook;
 
     private User user;
 
     private Credential credential;
 
     private HttpServletRequest request;
+
+    private Object jsonResult;
 
     @Override
     public String execute() throws Exception {
@@ -58,6 +64,12 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
         return user;
     }
 
+    public String validateUsername() throws Exception {
+        boolean ret = resourceBook.book(ResourceBookType.USERNAME, "test");
+        this.jsonResult = String.valueOf(ret);
+        return SUCCESS;
+    }
+
     public void setUser(User user) {
         this.user = user;
     }
@@ -68,5 +80,13 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
 
     public void setCredential(Credential credential) {
         this.credential = credential;
+    }
+
+    public Object getJsonResult() {
+        return jsonResult;
+    }
+
+    public void setJsonResult(Object jsonResult) {
+        this.jsonResult = jsonResult;
     }
 }

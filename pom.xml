@@ -64,6 +64,13 @@
             <version>2.3.4</version>
         </dependency>
 
+        <!-- for json -->
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-json-plugin</artifactId>
+            <version>2.3.4</version>
+        </dependency>
+
         <!-- test struts2 action -->
         <dependency>
             <groupId>org.apache.struts</groupId>

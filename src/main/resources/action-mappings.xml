@@ -6,7 +6,7 @@
 
 <struts>
 
-    <package name="user" extends="struts-default" namespace="/user">
+    <package name="user" extends="struts-default, json-default" namespace="/user">
         <global-results>
             <result name="illegalArgument">/error.jsp</result>
         </global-results>
@@ -14,9 +14,17 @@
             <exception-mapping exception="java.lang.IllegalArgumentException" result="illegalArgument"/>
         </global-exception-mappings>
 
-        <action name="*" class="userAction" method="{1}User">
+        <action name="*User" class="userAction" method="{0}">
             <result name="success">/index.jsp</result>
         </action>
-    </package>
 
+        <action name="isUsernameValid" class="userAction" method="validateUsername">
+            <result type="json">
+                <param name="root">jsonResult</param>
+            </result>
+            <!--<result name="success" type="json"></result>-->
+        </action>
+
+    </package>
+    
 </struts>

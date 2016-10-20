@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae92afcf-fdc9-4b21-9210-abe8a76fc6bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrapValidator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapValidator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapValidator.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_json_plugin_2_3_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/crm_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/crm_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm.iml" afterPath="$PROJECT_DIR$/crm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/master/crm/action/UserAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/master/crm/action/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/master/crm/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/master/crm/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/master/crm/util/ResourceBook.java" afterPath="$PROJECT_DIR$/src/main/java/com/master/crm/util/ResourceBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/master/crm/util/impl/ResourceBookImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/master/crm/util/impl/ResourceBookImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/action-mappings.xml" afterPath="$PROJECT_DIR$/src/main/resources/action-mappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/master/crm/action/UserActionTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/master/crm/action/UserActionTest.java" />
     </list>
     <ignored path="crm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,48 +48,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserActionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/master/crm/action/UserActionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="161" column="34" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+            <state relative-caret-position="3850">
+              <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/action/UserAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1214">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#6811#6817#0#HTML" expanded="true" />
-                <element signature="e#6820#6826#0#HTML" expanded="true" />
-                <element signature="e#6826#6832#0#HTML" expanded="true" />
-                <element signature="e#7002#7008#0#HTML" expanded="true" />
-                <element signature="e#7009#7015#0#HTML" expanded="true" />
-                <element signature="e#7016#7022#0#HTML" expanded="true" />
-                <element signature="e#7022#7028#0#HTML" expanded="true" />
-                <element signature="e#7206#7212#0#HTML" expanded="true" />
-                <element signature="e#7387#7393#0#HTML" expanded="true" />
-                <element signature="e#7553#7559#0#HTML" expanded="true" />
-                <element signature="e#7560#7566#0#HTML" expanded="true" />
-                <element signature="e#7567#7573#0#HTML" expanded="true" />
-                <element signature="e#7573#7579#0#HTML" expanded="true" />
-                <element signature="e#7579#7585#0#HTML" expanded="true" />
-                <element signature="e#7585#7591#0#HTML" expanded="true" />
-                <element signature="e#7591#7597#0#HTML" expanded="true" />
-                <element signature="e#7668#7674#0#HTML" expanded="true" />
-                <element signature="e#7674#7680#0#HTML" expanded="true" />
-                <element signature="e#7831#7837#0#HTML" expanded="true" />
-                <element signature="e#7838#7844#0#HTML" expanded="true" />
-                <element signature="e#7845#7851#0#HTML" expanded="true" />
-                <element signature="e#7851#7857#0#HTML" expanded="true" />
-                <element signature="e#8020#8026#0#HTML" expanded="true" />
-                <element signature="e#8027#8033#0#HTML" expanded="true" />
-                <element signature="e#8034#8040#0#HTML" expanded="true" />
-                <element signature="e#8040#8046#0#HTML" expanded="true" />
-                <element signature="e#8206#8212#0#HTML" expanded="true" />
-                <element signature="e#8213#8219#0#HTML" expanded="true" />
-                <element signature="e#8220#8226#0#HTML" expanded="true" />
-                <element signature="e#8226#8232#0#HTML" expanded="true" />
-                <element signature="e#8393#8399#0#HTML" expanded="true" />
-                <element signature="e#8400#8406#0#HTML" expanded="true" />
-                <element signature="e#8407#8413#0#HTML" expanded="true" />
-                <element signature="e#8413#8419#0#HTML" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1695#1696#0" expanded="true" />
+                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="e#1970#1971#0" expanded="true" />
+                <element signature="e#2002#2003#0" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
+                <element signature="e#2132#2133#0" expanded="true" />
+                <element signature="e#2176#2177#0" expanded="true" />
+                <element signature="e#2213#2214#0" expanded="true" />
+                <element signature="e#2246#2247#0" expanded="true" />
+                <element signature="e#2298#2299#0" expanded="true" />
+                <element signature="e#2342#2343#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/util/ResourceBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceBookImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/util/impl/ResourceBookImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action-mappings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/action-mappings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -94,12 +133,12 @@
       <list>
         <option value="struts_2_3" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -137,8 +176,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/master/crm/dao/AbstractBaseDaoSupport.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/master/crm/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/master/crm/service/UserService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/action-mappings.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/master/crm/enums/ResourceType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/master/crm/dao/UserDao.java" />
@@ -150,20 +187,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/master/crm/util/ResourcePrebook.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/master/crm/util/ResourceBookImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/master/crm/enums/ResourceBookType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/master/crm/util/impl/ResourceBookImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2da29291-4d7b-4187-80b3-e92e57d4d390/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/master/crm/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/fonts/.htaccess" />
         <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/crm.css" />
         <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/master/crm/action/UserActionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/master/crm/action/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/resources/project.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/master/crm/util/ResourceBook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/master/crm/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/master/crm/action/InfoAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/master/crm/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/master/crm/util/impl/ResourceBookImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/action-mappings.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/master/crm/action/UserActionTest.java" />
       </list>
     </option>
   </component>
@@ -264,7 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,6 +336,36 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -316,6 +386,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,34 +540,8 @@
               <option name="myItemId" value="crm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,11 +571,131 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,8 +731,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -551,7 +742,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Git/bin/git.exe" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -584,7 +775,7 @@
       <recent name="E:\develop\tools\Git_Repos\integrity\crm\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.crm [jetty:run]">
+  <component name="RunManager" selected="JUnit.UserActionTest.testValidateUsername">
     <configuration default="false" name="UserActionTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -598,32 +789,6 @@
       <option name="PACKAGE_NAME" value="com.master.crm.action" />
       <option name="MAIN_CLASS_NAME" value="com.master.crm.action.UserActionTest" />
       <option name="METHOD_NAME" value="testAddUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserActionTest.testDelUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.master.crm.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="crm" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.master.crm.action" />
-      <option name="MAIN_CLASS_NAME" value="com.master.crm.action.UserActionTest" />
-      <option name="METHOD_NAME" value="testDelUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -711,6 +876,32 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="UserActionTest.testValidateUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.master.crm.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="crm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.master.crm.action" />
+      <option name="MAIN_CLASS_NAME" value="com.master.crm.action.UserActionTest" />
+      <option name="METHOD_NAME" value="testValidateUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1162,18 +1353,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.UserActionTest.testAddUser" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserActionTest.testDelUser" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserActionTest.testRegisterUser" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserActionTest.testLoadAll" />
-      <item index="4" class="java.lang.String" itemvalue="Maven.crm [jetty:run]" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserActionTest.testRegisterUser" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserActionTest.testLoadAll" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.crm [jetty:run]" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserActionTest.testValidateUsername" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Maven.crm [jetty:run]" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserActionTest.testLoadAll" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserActionTest.testRegisterUser" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserActionTest.testAddUser" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserActionTest.testDelUser" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserActionTest.testValidateUsername" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserActionTest.testRegisterUser" />
+        <item index="2" class="java.lang.String" itemvalue="Maven.crm [jetty:run]" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserActionTest.testLoadAll" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserActionTest.testAddUser" />
       </list>
     </recent_temporary>
   </component>
@@ -1198,6 +1389,8 @@
       <workItem from="1476802882140" duration="161000" />
       <workItem from="1476803045699" duration="14611000" />
       <workItem from="1476878829750" duration="8450000" />
+      <workItem from="1476891221791" duration="5397000" />
+      <workItem from="1476966443589" duration="7849000" />
     </task>
     <task id="LOCAL-00001" summary="not yet finished.">
       <created>1476635456765</created>
@@ -1399,39 +1592,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserActionTest_testLoadAll - 2016.10.19 at 02h 13m 19s.xml">
-      <configuration name="UserActionTest.testLoadAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserActionTest_testLoadAll - 2016.10.19 at 02h 14m 02s.xml">
-      <configuration name="UserActionTest.testLoadAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserActionTest_testLoadAll - 2016.10.19 at 02h 15m 30s.xml">
-      <configuration name="UserActionTest.testLoadAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserActionTest_testLoadAll - 2016.10.19 at 02h 16m 02s.xml">
-      <configuration name="UserActionTest.testLoadAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserActionTest_testLoadAll - 2016.10.19 at 02h 16m 51s.xml">
-      <configuration name="UserActionTest.testLoadAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserActionTest_testLoadAll - 2016.10.19 at 02h 18m 06s.xml">
-      <configuration name="UserActionTest.testLoadAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserActionTest_testRegisterUser - 2016.10.19 at 02h 12m 41s.xml">
+    <history-entry file="UserActionTest_testRegisterUser - 2016.10.20 at 22h 53m 44s.xml">
       <configuration name="UserActionTest.testRegisterUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionTest_testRegisterUser - 2016.10.19 at 02h 12m 54s.xml">
+    <history-entry file="UserActionTest_testRegisterUser - 2016.10.20 at 22h 54m 23s.xml">
       <configuration name="UserActionTest.testRegisterUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionTest_testRegisterUser - 2016.10.19 at 02h 16m 41s.xml">
-      <configuration name="UserActionTest.testRegisterUser" configurationId="JUnit" />
+    <history-entry file="UserActionTest_testValidateUsername - 2016.10.20 at 22h 26m 02s.xml">
+      <configuration name="UserActionTest.testValidateUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserActionTest_testRegisterUser - 2016.10.19 at 02h 18m 00s.xml">
-      <configuration name="UserActionTest.testRegisterUser" configurationId="JUnit" />
+    <history-entry file="UserActionTest_testValidateUsername - 2016.10.20 at 22h 29m 08s.xml">
+      <configuration name="UserActionTest.testValidateUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserActionTest_testValidateUsername - 2016.10.20 at 22h 32m 47s.xml">
+      <configuration name="UserActionTest.testValidateUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserActionTest_testValidateUsername - 2016.10.20 at 22h 33m 44s.xml">
+      <configuration name="UserActionTest.testValidateUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserActionTest_testValidateUsername - 2016.10.20 at 22h 36m 48s.xml">
+      <configuration name="UserActionTest.testValidateUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserActionTest_testValidateUsername - 2016.10.20 at 22h 54m 42s.xml">
+      <configuration name="UserActionTest.testValidateUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserActionTest_testValidateUsername - 2016.10.20 at 22h 55m 36s.xml">
+      <configuration name="UserActionTest.testValidateUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserActionTest_testValidateUsername - 2016.10.20 at 22h 56m 04s.xml">
+      <configuration name="UserActionTest.testValidateUsername" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65609000" />
+    <option name="totallyTimeSpent" value="78855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1454,8 +1647,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3564464" sideWeight="0.50427353" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16720085" sideWeight="0.49199083" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18093175" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39869988" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37811485" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22318527" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1522,99 +1715,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/util/impl/ResourceBookImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="e#2154#2155#0" expanded="false" />
-            <element signature="e#2248#2249#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/model/Credential.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/util/ResourceBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2da29291-4d7b-4187-80b3-e92e57d4d390/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/enums/UserStatusType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/js/npm.js" />
-    <entry file="file://$PROJECT_DIR$/crm.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jquery/jquery-2.1.1.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/js/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/fonts/.htaccess" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/crm.css___jb_tmp___" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/crm.css___jb_old___" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-2.1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1650,49 +1756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12350">
           <caret line="552" column="0" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1298#1321#0" expanded="false" />
-            <element signature="e#1841#1842#0" expanded="false" />
-            <element signature="e#1894#1895#0" expanded="false" />
-            <element signature="e#1991#2235#0" expanded="false" />
-            <element signature="e#2153#2163#0" expanded="false" />
-            <element signature="e#2234#2235#0" expanded="false" />
-            <element signature="e#2894#2904#0" expanded="false" />
-            <element signature="e#3118#3312#0" expanded="false" />
-            <element signature="e#3311#3312#0" expanded="false" />
-            <element signature="e#3495#3727#0" expanded="false" />
-            <element signature="e#3726#3727#0" expanded="false" />
-            <element signature="e#3905#4132#0" expanded="false" />
-            <element signature="e#4131#4132#0" expanded="false" />
-            <element signature="e#4924#4925#0" expanded="false" />
-            <element signature="e#4978#4979#0" expanded="false" />
-            <element signature="e#6907#6929#0" expanded="false" />
-            <element signature="e#9665#9924#0" expanded="false" />
-            <element signature="e#9923#9924#0" expanded="false" />
-            <element signature="e#16485#16486#0" expanded="false" />
-            <element signature="e#16539#16540#0" expanded="false" />
-            <element signature="e#16598#16729#0" expanded="false" />
-            <element signature="e#16728#16729#0" expanded="false" />
-            <element signature="e#16815#16943#0" expanded="false" />
-            <element signature="e#16942#16943#0" expanded="false" />
-            <element signature="e#17043#17172#0" expanded="false" />
-            <element signature="e#17171#17172#0" expanded="false" />
-            <element signature="e#17443#17444#0" expanded="false" />
-            <element signature="e#17485#17486#0" expanded="false" />
-            <element signature="e#17529#17650#0" expanded="false" />
-            <element signature="e#17649#17650#0" expanded="false" />
-            <element signature="e#18540#18541#0" expanded="false" />
-            <element signature="e#18586#18587#0" expanded="false" />
-            <element signature="e#18655#18663#0" expanded="false" />
-            <element signature="e#18730#18731#0" expanded="false" />
-            <element signature="e#18779#18780#0" expanded="false" />
-            <element signature="e#18817#18818#0" expanded="false" />
-            <element signature="e#18856#18857#0" expanded="false" />
-            <element signature="e#19127#19128#0" expanded="false" />
-            <element signature="e#19150#19151#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1703,39 +1766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.4/struts2-core-2.3.4-sources.jar!/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6750">
           <caret line="318" column="24" selection-start-line="318" selection-start-column="24" selection-end-line="318" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#21232#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10076#10077#0" expanded="false" />
-            <element signature="e#10131#10132#0" expanded="false" />
-            <element signature="e#10260#10261#0" expanded="false" />
-            <element signature="e#10322#10323#0" expanded="false" />
-            <element signature="e#10446#10447#0" expanded="false" />
-            <element signature="e#10510#10511#0" expanded="false" />
-            <element signature="e#10635#10636#0" expanded="false" />
-            <element signature="e#10702#10703#0" expanded="false" />
-            <element signature="e#10767#10768#0" expanded="false" />
-            <element signature="e#10809#10810#0" expanded="false" />
-            <element signature="e#17070#17071#0" expanded="false" />
-            <element signature="e#17133#17134#0" expanded="false" />
-            <element signature="e#21179#21180#0" expanded="false" />
-            <element signature="e#21227#21228#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1779,29 +1813,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <element signature="e#1762#1763#0" expanded="false" />
-            <element signature="e#1802#1803#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/master/crm/action/UserActionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1818,7 +1833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1826,16 +1840,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/screenshot/standard_hour_meridian.png" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/screenshot/standard_hour.png" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/screenshot/standard_day_meridian.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1848,7 +1852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1874,9 +1877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="879" column="0" selection-start-line="879" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
-          <folding>
-            <element signature="e#34720#34721#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1909,50 +1909,354 @@
         <state relative-caret-position="705">
           <caret line="1719" column="11" selection-start-line="1719" selection-start-column="11" selection-end-line="1719" selection-end-column="11" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.2.RELEASE/spring-web-4.3.2.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="352" column="17" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java</OriginalElement>
+          <nodes>
+            <node x="" y="">java.applet</node>
+            <node x="" y="">java.lang.IndexOutOfBoundsException</node>
+            <node x="" y="">java.lang.ClassValue.Entry</node>
+            <node x="" y="">java.lang.Float</node>
+            <node x="" y="">java.lang.Override</node>
+            <node x="" y="">java.lang.Thread.WeakClassKey</node>
+            <node x="" y="">java.lang.System</node>
+            <node x="" y="">java.lang.ApplicationShutdownHooks</node>
+            <node x="" y="">java.lang.ProcessBuilder.NullOutputStream</node>
+            <node x="" y="">java.lang.ProcessBuilder.NullInputStream</node>
+            <node x="" y="">java.lang.ClassLoaderHelper</node>
+            <node x="" y="">java.lang.AbstractMethodError</node>
+            <node x="" y="">java.nio</node>
+            <node x="" y="">java.lang.ThreadGroup</node>
+            <node x="" y="">java.lang.ClassValue.Identity</node>
+            <node x="" y="">java.lang.Integer</node>
+            <node x="" y="">java.lang.CharacterData0E</node>
+            <node x="" y="">java.lang.CloneNotSupportedException</node>
+            <node x="" y="">java.lang.Terminator</node>
+            <node x="" y="">java.lang.ref</node>
+            <node x="" y="">java.lang.instrument</node>
+            <node x="" y="">java.time</node>
+            <node x="" y="">java.lang.Character</node>
+            <node x="" y="">java.lang.NoSuchFieldException</node>
+            <node x="" y="">java.lang.Long</node>
+            <node x="" y="">java.lang.Thread</node>
+            <node x="" y="">java.lang.InternalError</node>
+            <node x="" y="">java.lang.ArithmeticException</node>
+            <node x="" y="">java.lang.CharacterData01</node>
+            <node x="" y="">java.lang.InheritableThreadLocal</node>
+            <node x="" y="">java.lang.CharacterData02</node>
+            <node x="" y="">java.lang.Throwable.PrintStreamOrWriter</node>
+            <node x="" y="">java.lang.StrictMath</node>
+            <node x="" y="">java.lang.SystemClassLoaderAction</node>
+            <node x="" y="">java.lang.ConditionalSpecialCasing.Entry</node>
+            <node x="" y="">java.lang.reflect</node>
+            <node x="" y="">java.lang.Void</node>
+            <node x="" y="">java.security</node>
+            <node x="" y="">java.lang.ClassCircularityError</node>
+            <node x="" y="">java.lang.Compiler</node>
+            <node x="" y="">java.lang.CharSequence</node>
+            <node x="" y="">java.lang.LinkageError</node>
+            <node x="" y="">java.lang.String.CaseInsensitiveComparator</node>
+            <node x="" y="">java.lang.SuppressWarnings</node>
+            <node x="" y="">java.lang.CharacterData00</node>
+            <node x="" y="">java.lang.AssertionStatusDirectives</node>
+            <node x="" y="">java.lang.Runtime</node>
+            <node x="" y="">java.lang.StringIndexOutOfBoundsException</node>
+            <node x="" y="">java.lang.Throwable.WrappedPrintWriter</node>
+            <node x="" y="">java.lang.Byte.ByteCache</node>
+            <node x="" y="">java.lang.Exception</node>
+            <node x="" y="">java.lang.ThreadDeath</node>
+            <node x="" y="">java.lang.StringBuilder</node>
+            <node x="" y="">java.lang.RuntimePermission</node>
+            <node x="" y="">java.lang.ClassLoader</node>
+            <node x="" y="">java.lang.CharacterDataUndefined</node>
+            <node x="" y="">java.lang.Character.Subset</node>
+            <node x="" y="">java.lang.Throwable</node>
+            <node x="" y="">java.sql</node>
+            <node x="" y="">java.lang.StackOverflowError</node>
+            <node x="" y="">java.util</node>
+            <node x="" y="">java.lang.StringCoding.StringEncoder</node>
+            <node x="" y="">java.lang.Double</node>
+            <node x="" y="">java.lang.ThreadLocal.SuppliedThreadLocal</node>
+            <node x="" y="">java.lang.TypeNotPresentException</node>
+            <node x="" y="">java.lang.annotation</node>
+            <node x="" y="">java.lang.Error</node>
+            <node x="" y="">java.lang.ProcessImpl</node>
+            <node x="" y="">java.lang.AssertionError</node>
+            <node x="" y="">java.lang.ReflectiveOperationException</node>
+            <node x="" y="">java.lang.ClassCastException</node>
+            <node x="" y="">java.lang.VerifyError</node>
+            <node x="" y="">java.lang.IllegalMonitorStateException</node>
+            <node x="" y="">java.lang.VirtualMachineError</node>
+            <node x="" y="">java.lang.ClassLoader.NativeLibrary</node>
+            <node x="" y="">java.lang.StringBuffer</node>
+            <node x="" y="">java.lang.UnknownError</node>
+            <node x="" y="">java.lang.ProcessEnvironment.CheckedValues</node>
+            <node x="" y="">java.lang.StackTraceElement</node>
+            <node x="" y="">java.lang.String</node>
+            <node x="" y="">java.lang.Number</node>
+            <node x="" y="">java.math</node>
+            <node x="" y="">java.lang.NegativeArraySizeException</node>
+            <node x="" y="">java.lang.UnsupportedOperationException</node>
+            <node x="" y="">java.lang.SafeVarargs</node>
+            <node x="" y="">java.lang.IncompatibleClassChangeError</node>
+            <node x="" y="">java.lang.NoSuchMethodError</node>
+            <node x="" y="">java.lang.Deprecated</node>
+            <node x="" y="">java.lang.ProcessEnvironment.CheckedEntrySet</node>
+            <node x="" y="">java.lang.NumberFormatException</node>
+            <node x="" y="">java.lang.StrictMath.RandomNumberGeneratorHolder</node>
+            <node x="" y="">java.lang.RuntimeException</node>
+            <node x="" y="">java.lang.ArrayIndexOutOfBoundsException</node>
+            <node x="" y="">java.awt</node>
+            <node x="" y="">java.text</node>
+            <node x="" y="">java.lang.ConditionalSpecialCasing</node>
+            <node x="" y="">java.lang.StringCoding.StringDecoder</node>
+            <node x="" y="">java.lang.ClassNotFoundException</node>
+            <node x="" y="">java.lang.Comparable</node>
+            <node x="" y="">java.lang.ClassFormatError</node>
+            <node x="" y="">java.lang.ExceptionInInitializerError</node>
+            <node x="" y="">java.lang.OutOfMemoryError</node>
+            <node x="" y="">java.lang.ProcessImpl.LazyPattern</node>
+            <node x="" y="">java.rmi</node>
+            <node x="" y="">java.lang.IllegalStateException</node>
+            <node x="" y="">java.lang.Character.UnicodeBlock</node>
+            <node x="" y="">java.lang.Thread.UncaughtExceptionHandler</node>
+            <node x="" y="">java.lang.NoSuchMethodException</node>
+            <node x="" y="">java.beans</node>
+            <node x="" y="">java.lang.UnsupportedClassVersionError</node>
+            <node x="" y="">java.lang.ProcessEnvironment.EntryComparator</node>
+            <node x="" y="">java.lang.Runnable</node>
+            <node x="" y="">java.lang.AutoCloseable</node>
+            <node x="" y="">java.lang.NullPointerException</node>
+            <node x="" y="">java.lang.Integer.IntegerCache</node>
+            <node x="" y="">java.lang.NoSuchFieldError</node>
+            <node x="" y="">java.lang.Throwable.SentinelHolder</node>
+            <node x="" y="">java.lang.ClassValue.Version</node>
+            <node x="" y="">java.net</node>
+            <node x="" y="">java.lang.Enum</node>
+            <node x="" y="">java.lang.Thread.Caches</node>
+            <node x="" y="">java.lang.Short</node>
+            <node x="" y="">java.lang.Class.Atomic</node>
+            <node x="" y="">java.lang.Readable</node>
+            <node x="" y="">java.lang.InstantiationException</node>
+            <node x="" y="">java.lang.Math</node>
+            <node x="" y="">java.lang.Shutdown.Lock</node>
+            <node x="" y="">java.lang.SecurityException</node>
+            <node x="" y="">java.lang.Class.EnclosingMethodInfo</node>
+            <node x="" y="">java.lang.Byte</node>
+            <node x="" y="">java.lang.StringCoding</node>
+            <node x="" y="">java.lang.ClassLoader.ParallelLoaders</node>
+            <node x="" y="">java.lang.IllegalAccessException</node>
+            <node x="" y="">java.lang.ThreadLocal</node>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">java.lang.ProcessEnvironment</node>
+            <node x="" y="">java.lang.Process</node>
+            <node x="" y="">java.lang.CharacterDataLatin1</node>
+            <node x="" y="">java.lang.ProcessBuilder.Redirect</node>
+            <node x="" y="">java.lang.Class.ReflectionData</node>
+            <node x="" y="">java.lang.ProcessEnvironment.CheckedEntry</node>
+            <node x="" y="">java.lang.ProcessEnvironment.NameComparator</node>
+            <node x="" y="">java.lang.Throwable.WrappedPrintStream</node>
+            <node x="" y="">java.lang.ProcessEnvironment.CheckedKeySet</node>
+            <node x="" y="">java.lang.Short.ShortCache</node>
+            <node x="" y="">java.lang.IllegalAccessError</node>
+            <node x="" y="">java.lang.BootstrapMethodError</node>
+            <node x="" y="">java.lang.Class.AnnotationData</node>
+            <node x="" y="">java.lang.ArrayStoreException</node>
+            <node x="" y="">java.lang.Long.LongCache</node>
+            <node x="" y="">java.lang.CharacterName</node>
+            <node x="" y="">java.lang.ThreadLocal.ThreadLocalMap</node>
+            <node x="" y="">java.lang.Iterable</node>
+            <node x="" y="">java.lang.FunctionalInterface</node>
+            <node x="" y="">java.lang.Character.UnicodeScript</node>
+            <node x="" y="">java.lang.EnumConstantNotPresentException</node>
+            <node x="" y="">java.lang.AbstractStringBuilder</node>
+            <node x="" y="">java.lang.Boolean</node>
+            <node x="" y="">java.lang.invoke</node>
+            <node x="" y="">java.lang.CharacterData</node>
+            <node x="" y="">java.lang.ProcessBuilder</node>
+            <node x="" y="">java.lang.NoClassDefFoundError</node>
+            <node x="" y="">java.lang.Shutdown</node>
+            <node x="" y="">java.lang.IllegalThreadStateException</node>
+            <node x="" y="">java.lang.management</node>
+            <node x="" y="">java.lang.Package</node>
+            <node x="" y="">java.lang.Class.MethodArray</node>
+            <node x="" y="">java.lang.Appendable</node>
+            <node x="" y="">java.lang.IllegalArgumentException</node>
+            <node x="" y="">java.lang.CharacterDataPrivateUse</node>
+            <node x="" y="">java.lang.SecurityManager</node>
+            <node x="" y="">java.lang.ClassValue.ClassValueMap</node>
+            <node x="" y="">java.lang.Math.RandomNumberGeneratorHolder</node>
+            <node x="" y="">java.io</node>
+            <node x="" y="">java.lang.InterruptedException</node>
+            <node x="" y="">java.lang.InstantiationError</node>
+            <node x="" y="">java.lang.ClassValue</node>
+            <node x="" y="">java.lang.Character.CharacterCache</node>
+            <node x="" y="">java.lang.Class</node>
+            <node x="" y="">java.lang.Object</node>
+            <node x="" y="">java.lang.UnsatisfiedLinkError</node>
+            <node x="" y="">java.lang.Thread.State</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8362637362637362" x="5789.954072127317" y="2575.114142210542" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="142" column="48" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-json-plugin/2.3.4/struts2-json-plugin-2.3.4.jar!/org/apache/struts2/json/JSONResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-json-plugin/2.3.4/struts2-json-plugin-2.3.4.jar!/struts-plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.4/struts2-core-2.3.4.jar!/struts-default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="118" column="4" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-2.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8480" column="4" selection-start-line="8480" selection-start-column="4" selection-end-line="8480" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/action/InfoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="161" column="34" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+        <state relative-caret-position="3850">
+          <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/master/crm/action/UserActionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/util/ResourceBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/util/impl/ResourceBookImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/action-mappings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1214">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#6811#6817#0#HTML" expanded="true" />
-            <element signature="e#6820#6826#0#HTML" expanded="true" />
-            <element signature="e#6826#6832#0#HTML" expanded="true" />
-            <element signature="e#7002#7008#0#HTML" expanded="true" />
-            <element signature="e#7009#7015#0#HTML" expanded="true" />
-            <element signature="e#7016#7022#0#HTML" expanded="true" />
-            <element signature="e#7022#7028#0#HTML" expanded="true" />
-            <element signature="e#7206#7212#0#HTML" expanded="true" />
-            <element signature="e#7387#7393#0#HTML" expanded="true" />
-            <element signature="e#7553#7559#0#HTML" expanded="true" />
-            <element signature="e#7560#7566#0#HTML" expanded="true" />
-            <element signature="e#7567#7573#0#HTML" expanded="true" />
-            <element signature="e#7573#7579#0#HTML" expanded="true" />
-            <element signature="e#7579#7585#0#HTML" expanded="true" />
-            <element signature="e#7585#7591#0#HTML" expanded="true" />
-            <element signature="e#7591#7597#0#HTML" expanded="true" />
-            <element signature="e#7668#7674#0#HTML" expanded="true" />
-            <element signature="e#7674#7680#0#HTML" expanded="true" />
-            <element signature="e#7831#7837#0#HTML" expanded="true" />
-            <element signature="e#7838#7844#0#HTML" expanded="true" />
-            <element signature="e#7845#7851#0#HTML" expanded="true" />
-            <element signature="e#7851#7857#0#HTML" expanded="true" />
-            <element signature="e#8020#8026#0#HTML" expanded="true" />
-            <element signature="e#8027#8033#0#HTML" expanded="true" />
-            <element signature="e#8034#8040#0#HTML" expanded="true" />
-            <element signature="e#8040#8046#0#HTML" expanded="true" />
-            <element signature="e#8206#8212#0#HTML" expanded="true" />
-            <element signature="e#8213#8219#0#HTML" expanded="true" />
-            <element signature="e#8220#8226#0#HTML" expanded="true" />
-            <element signature="e#8226#8232#0#HTML" expanded="true" />
-            <element signature="e#8393#8399#0#HTML" expanded="true" />
-            <element signature="e#8400#8406#0#HTML" expanded="true" />
-            <element signature="e#8407#8413#0#HTML" expanded="true" />
-            <element signature="e#8413#8419#0#HTML" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1970#1971#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2213#2214#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2298#2299#0" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
           </folding>
         </state>
       </provider>

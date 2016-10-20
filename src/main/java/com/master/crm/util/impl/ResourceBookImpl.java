@@ -7,6 +7,7 @@ import com.master.crm.util.ResourceBook;
 import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -14,6 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+@Transactional
 @Component("resourceBook")
 public class ResourceBookImpl implements ResourceBook {
 
@@ -49,6 +51,12 @@ public class ResourceBookImpl implements ResourceBook {
 
     }
 
+    @Override
+    public boolean hasBooked(ResourceBookType type, String value) {
+        String currentSesionId = getSession().getId();
+        return currentSesionId.equals(loockupContext(type, value));
+    }
+
     //look up the bundled session id
     private String loockupContext(ResourceBookType type, String value) {
         HttpSession session = this.getSession();
@@ -65,7 +73,6 @@ public class ResourceBookImpl implements ResourceBook {
         return null;
     }
 
-    @Override
     public boolean available(ResourceBookType type, String value) {
         return this.availableInDb(type, value) && this.availableInContext(type, value);
     }

@@ -2,12 +2,10 @@ package com.master.crm.service.impl;
 
 import com.master.crm.dao.CredentialDao;
 import com.master.crm.dao.UserDao;
-import com.master.crm.enums.ResourceBookType;
 import com.master.crm.enums.UserStatusType;
 import com.master.crm.model.Credential;
 import com.master.crm.model.User;
 import com.master.crm.service.UserService;
-import com.master.crm.util.ResourceBook;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,8 +25,6 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
     @Autowired
     private CredentialDao credentialDao;
-    @Autowired
-    private ResourceBook resourceBook;
 
     @Override
     public void register(User user, Credential credential) {
@@ -39,7 +35,6 @@ public class UserServiceImpl implements UserService {
         credential.setRegisterDate(new Date());
         credential.setStatus(UserStatusType.FROZEN);
 
-        resourceBook.book(ResourceBookType.USERNAME, credential.getUsername());
         userDao.save(user);
         credentialDao.save(credential);
     }
