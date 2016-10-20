@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae92afcf-fdc9-4b21-9210-abe8a76fc6bc" name="Default" comment="bring in json">
+    <list default="true" id="ae92afcf-fdc9-4b21-9210-abe8a76fc6bc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" />
     </list>
     <ignored path="crm.iws" />
@@ -43,18 +42,18 @@
       <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="218">
+              <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
               <folding>
-                <element signature="e#8012#8018#0#HTML" expanded="true" />
-                <element signature="e#8021#8027#0#HTML" expanded="true" />
-                <element signature="e#8027#8033#0#HTML" expanded="true" />
-                <element signature="e#8203#8209#0#HTML" expanded="true" />
-                <element signature="e#8210#8216#0#HTML" expanded="true" />
-                <element signature="e#8217#8223#0#HTML" expanded="true" />
-                <element signature="e#8223#8229#0#HTML" expanded="true" />
-                <element signature="e#8407#8413#0#HTML" expanded="true" />
-                <element signature="e#8588#8594#0#HTML" expanded="true" />
+                <element signature="e#8072#8078#0#HTML" expanded="true" />
+                <element signature="e#8081#8087#0#HTML" expanded="true" />
+                <element signature="e#8087#8093#0#HTML" expanded="true" />
+                <element signature="e#8248#8254#0#HTML" expanded="true" />
+                <element signature="e#8255#8261#0#HTML" expanded="true" />
+                <element signature="e#8262#8268#0#HTML" expanded="true" />
+                <element signature="e#8268#8274#0#HTML" expanded="true" />
+                <element signature="e#8437#8443#0#HTML" expanded="true" />
+                <element signature="e#8603#8609#0#HTML" expanded="true" />
                 <element signature="e#8754#8760#0#HTML" expanded="true" />
                 <element signature="e#8761#8767#0#HTML" expanded="true" />
                 <element signature="e#8768#8774#0#HTML" expanded="true" />
@@ -62,25 +61,63 @@
                 <element signature="e#8780#8786#0#HTML" expanded="true" />
                 <element signature="e#8786#8792#0#HTML" expanded="true" />
                 <element signature="e#8792#8798#0#HTML" expanded="true" />
-                <element signature="e#8869#8875#0#HTML" expanded="true" />
-                <element signature="e#8875#8881#0#HTML" expanded="true" />
-                <element signature="e#9032#9038#0#HTML" expanded="true" />
-                <element signature="e#9039#9045#0#HTML" expanded="true" />
-                <element signature="e#9046#9052#0#HTML" expanded="true" />
-                <element signature="e#9052#9058#0#HTML" expanded="true" />
-                <element signature="e#9221#9227#0#HTML" expanded="true" />
-                <element signature="e#9228#9234#0#HTML" expanded="true" />
-                <element signature="e#9235#9241#0#HTML" expanded="true" />
-                <element signature="e#9241#9247#0#HTML" expanded="true" />
-                <element signature="e#9407#9413#0#HTML" expanded="true" />
-                <element signature="e#9414#9420#0#HTML" expanded="true" />
-                <element signature="e#9421#9427#0#HTML" expanded="true" />
-                <element signature="e#9427#9433#0#HTML" expanded="true" />
-                <element signature="e#9594#9600#0#HTML" expanded="true" />
-                <element signature="e#9601#9607#0#HTML" expanded="true" />
-                <element signature="e#9608#9614#0#HTML" expanded="true" />
-                <element signature="e#9614#9620#0#HTML" expanded="true" />
+                <element signature="e#8861#8867#0#HTML" expanded="true" />
+                <element signature="e#8867#8873#0#HTML" expanded="true" />
+                <element signature="e#9017#9023#0#HTML" expanded="true" />
+                <element signature="e#9024#9030#0#HTML" expanded="true" />
+                <element signature="e#9031#9037#0#HTML" expanded="true" />
+                <element signature="e#9037#9043#0#HTML" expanded="true" />
+                <element signature="e#9190#9196#0#HTML" expanded="true" />
+                <element signature="e#9197#9203#0#HTML" expanded="true" />
+                <element signature="e#9204#9210#0#HTML" expanded="true" />
+                <element signature="e#9210#9216#0#HTML" expanded="true" />
+                <element signature="e#9361#9367#0#HTML" expanded="true" />
+                <element signature="e#9368#9374#0#HTML" expanded="true" />
+                <element signature="e#9375#9381#0#HTML" expanded="true" />
+                <element signature="e#9381#9387#0#HTML" expanded="true" />
+                <element signature="e#9533#9539#0#HTML" expanded="true" />
+                <element signature="e#9540#9546#0#HTML" expanded="true" />
+                <element signature="e#9547#9553#0#HTML" expanded="true" />
+                <element signature="e#9553#9559#0#HTML" expanded="true" />
+                <element signature="e#9699#9705#0#HTML" expanded="true" />
+                <element signature="e#9705#9711#0#HTML" expanded="true" />
+                <element signature="e#9711#9717#0#HTML" expanded="true" />
+                <element signature="e#9717#9723#0#HTML" expanded="true" />
+                <element signature="e#9723#9729#0#HTML" expanded="true" />
+                <element signature="e#9795#9801#0#HTML" expanded="true" />
+                <element signature="e#9801#9807#0#HTML" expanded="true" />
+                <element signature="e#9807#9813#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crm-db.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/crm-db.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crm-sql.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/crm-sql.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -446,6 +483,160 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enums" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1315,7 +1506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476975513259</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="datepicker fine.">
+      <created>1476989984673</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1476989984673</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1351,7 +1549,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86371000" />
+    <option name="totallyTimeSpent" value="88164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1425,12 +1623,12 @@
     <MESSAGE value="bring in bootstrap" />
     <MESSAGE value="welcome file list fine" />
     <MESSAGE value="register fine." />
-    <MESSAGE value="datepicker fine." />
     <MESSAGE value="local language for datepicker" />
     <MESSAGE value="read only for datepicker" />
     <MESSAGE value="." />
     <MESSAGE value="bring in json" />
-    <option name="LAST_COMMIT_MESSAGE" value="bring in json" />
+    <MESSAGE value="datepicker fine." />
+    <option name="LAST_COMMIT_MESSAGE" value="datepicker fine." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1447,8 +1645,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/fonts/.htaccess" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/crm.css___jb_tmp___" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/crm.css___jb_old___" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1509,13 +1705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/master/crm/dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1543,6 +1732,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1903,15 +2093,15 @@
         <state relative-caret-position="550">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <element signature="e#8012#8018#0#HTML" expanded="true" />
-            <element signature="e#8021#8027#0#HTML" expanded="true" />
-            <element signature="e#8027#8033#0#HTML" expanded="true" />
-            <element signature="e#8203#8209#0#HTML" expanded="true" />
-            <element signature="e#8210#8216#0#HTML" expanded="true" />
-            <element signature="e#8217#8223#0#HTML" expanded="true" />
-            <element signature="e#8223#8229#0#HTML" expanded="true" />
-            <element signature="e#8407#8413#0#HTML" expanded="true" />
-            <element signature="e#8588#8594#0#HTML" expanded="true" />
+            <element signature="e#8072#8078#0#HTML" expanded="true" />
+            <element signature="e#8081#8087#0#HTML" expanded="true" />
+            <element signature="e#8087#8093#0#HTML" expanded="true" />
+            <element signature="e#8248#8254#0#HTML" expanded="true" />
+            <element signature="e#8255#8261#0#HTML" expanded="true" />
+            <element signature="e#8262#8268#0#HTML" expanded="true" />
+            <element signature="e#8268#8274#0#HTML" expanded="true" />
+            <element signature="e#8437#8443#0#HTML" expanded="true" />
+            <element signature="e#8603#8609#0#HTML" expanded="true" />
             <element signature="e#8754#8760#0#HTML" expanded="true" />
             <element signature="e#8761#8767#0#HTML" expanded="true" />
             <element signature="e#8768#8774#0#HTML" expanded="true" />
@@ -1919,24 +2109,32 @@
             <element signature="e#8780#8786#0#HTML" expanded="true" />
             <element signature="e#8786#8792#0#HTML" expanded="true" />
             <element signature="e#8792#8798#0#HTML" expanded="true" />
-            <element signature="e#8869#8875#0#HTML" expanded="true" />
-            <element signature="e#8875#8881#0#HTML" expanded="true" />
-            <element signature="e#9032#9038#0#HTML" expanded="true" />
-            <element signature="e#9039#9045#0#HTML" expanded="true" />
-            <element signature="e#9046#9052#0#HTML" expanded="true" />
-            <element signature="e#9052#9058#0#HTML" expanded="true" />
-            <element signature="e#9221#9227#0#HTML" expanded="true" />
-            <element signature="e#9228#9234#0#HTML" expanded="true" />
-            <element signature="e#9235#9241#0#HTML" expanded="true" />
-            <element signature="e#9241#9247#0#HTML" expanded="true" />
-            <element signature="e#9407#9413#0#HTML" expanded="true" />
-            <element signature="e#9414#9420#0#HTML" expanded="true" />
-            <element signature="e#9421#9427#0#HTML" expanded="true" />
-            <element signature="e#9427#9433#0#HTML" expanded="true" />
-            <element signature="e#9594#9600#0#HTML" expanded="true" />
-            <element signature="e#9601#9607#0#HTML" expanded="true" />
-            <element signature="e#9608#9614#0#HTML" expanded="true" />
-            <element signature="e#9614#9620#0#HTML" expanded="true" />
+            <element signature="e#8861#8867#0#HTML" expanded="true" />
+            <element signature="e#8867#8873#0#HTML" expanded="true" />
+            <element signature="e#9017#9023#0#HTML" expanded="true" />
+            <element signature="e#9024#9030#0#HTML" expanded="true" />
+            <element signature="e#9031#9037#0#HTML" expanded="true" />
+            <element signature="e#9037#9043#0#HTML" expanded="true" />
+            <element signature="e#9190#9196#0#HTML" expanded="true" />
+            <element signature="e#9197#9203#0#HTML" expanded="true" />
+            <element signature="e#9204#9210#0#HTML" expanded="true" />
+            <element signature="e#9210#9216#0#HTML" expanded="true" />
+            <element signature="e#9361#9367#0#HTML" expanded="true" />
+            <element signature="e#9368#9374#0#HTML" expanded="true" />
+            <element signature="e#9375#9381#0#HTML" expanded="true" />
+            <element signature="e#9381#9387#0#HTML" expanded="true" />
+            <element signature="e#9533#9539#0#HTML" expanded="true" />
+            <element signature="e#9540#9546#0#HTML" expanded="true" />
+            <element signature="e#9547#9553#0#HTML" expanded="true" />
+            <element signature="e#9553#9559#0#HTML" expanded="true" />
+            <element signature="e#9699#9705#0#HTML" expanded="true" />
+            <element signature="e#9705#9711#0#HTML" expanded="true" />
+            <element signature="e#9711#9717#0#HTML" expanded="true" />
+            <element signature="e#9717#9723#0#HTML" expanded="true" />
+            <element signature="e#9723#9729#0#HTML" expanded="true" />
+            <element signature="e#9795#9801#0#HTML" expanded="true" />
+            <element signature="e#9801#9807#0#HTML" expanded="true" />
+            <element signature="e#9807#9813#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1974,7 +2172,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2038,20 +2236,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/crm-db.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/crm-sql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="218">
+          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
           <folding>
-            <element signature="e#8012#8018#0#HTML" expanded="true" />
-            <element signature="e#8021#8027#0#HTML" expanded="true" />
-            <element signature="e#8027#8033#0#HTML" expanded="true" />
-            <element signature="e#8203#8209#0#HTML" expanded="true" />
-            <element signature="e#8210#8216#0#HTML" expanded="true" />
-            <element signature="e#8217#8223#0#HTML" expanded="true" />
-            <element signature="e#8223#8229#0#HTML" expanded="true" />
-            <element signature="e#8407#8413#0#HTML" expanded="true" />
-            <element signature="e#8588#8594#0#HTML" expanded="true" />
+            <element signature="e#8072#8078#0#HTML" expanded="true" />
+            <element signature="e#8081#8087#0#HTML" expanded="true" />
+            <element signature="e#8087#8093#0#HTML" expanded="true" />
+            <element signature="e#8248#8254#0#HTML" expanded="true" />
+            <element signature="e#8255#8261#0#HTML" expanded="true" />
+            <element signature="e#8262#8268#0#HTML" expanded="true" />
+            <element signature="e#8268#8274#0#HTML" expanded="true" />
+            <element signature="e#8437#8443#0#HTML" expanded="true" />
+            <element signature="e#8603#8609#0#HTML" expanded="true" />
             <element signature="e#8754#8760#0#HTML" expanded="true" />
             <element signature="e#8761#8767#0#HTML" expanded="true" />
             <element signature="e#8768#8774#0#HTML" expanded="true" />
@@ -2059,24 +2281,32 @@
             <element signature="e#8780#8786#0#HTML" expanded="true" />
             <element signature="e#8786#8792#0#HTML" expanded="true" />
             <element signature="e#8792#8798#0#HTML" expanded="true" />
-            <element signature="e#8869#8875#0#HTML" expanded="true" />
-            <element signature="e#8875#8881#0#HTML" expanded="true" />
-            <element signature="e#9032#9038#0#HTML" expanded="true" />
-            <element signature="e#9039#9045#0#HTML" expanded="true" />
-            <element signature="e#9046#9052#0#HTML" expanded="true" />
-            <element signature="e#9052#9058#0#HTML" expanded="true" />
-            <element signature="e#9221#9227#0#HTML" expanded="true" />
-            <element signature="e#9228#9234#0#HTML" expanded="true" />
-            <element signature="e#9235#9241#0#HTML" expanded="true" />
-            <element signature="e#9241#9247#0#HTML" expanded="true" />
-            <element signature="e#9407#9413#0#HTML" expanded="true" />
-            <element signature="e#9414#9420#0#HTML" expanded="true" />
-            <element signature="e#9421#9427#0#HTML" expanded="true" />
-            <element signature="e#9427#9433#0#HTML" expanded="true" />
-            <element signature="e#9594#9600#0#HTML" expanded="true" />
-            <element signature="e#9601#9607#0#HTML" expanded="true" />
-            <element signature="e#9608#9614#0#HTML" expanded="true" />
-            <element signature="e#9614#9620#0#HTML" expanded="true" />
+            <element signature="e#8861#8867#0#HTML" expanded="true" />
+            <element signature="e#8867#8873#0#HTML" expanded="true" />
+            <element signature="e#9017#9023#0#HTML" expanded="true" />
+            <element signature="e#9024#9030#0#HTML" expanded="true" />
+            <element signature="e#9031#9037#0#HTML" expanded="true" />
+            <element signature="e#9037#9043#0#HTML" expanded="true" />
+            <element signature="e#9190#9196#0#HTML" expanded="true" />
+            <element signature="e#9197#9203#0#HTML" expanded="true" />
+            <element signature="e#9204#9210#0#HTML" expanded="true" />
+            <element signature="e#9210#9216#0#HTML" expanded="true" />
+            <element signature="e#9361#9367#0#HTML" expanded="true" />
+            <element signature="e#9368#9374#0#HTML" expanded="true" />
+            <element signature="e#9375#9381#0#HTML" expanded="true" />
+            <element signature="e#9381#9387#0#HTML" expanded="true" />
+            <element signature="e#9533#9539#0#HTML" expanded="true" />
+            <element signature="e#9540#9546#0#HTML" expanded="true" />
+            <element signature="e#9547#9553#0#HTML" expanded="true" />
+            <element signature="e#9553#9559#0#HTML" expanded="true" />
+            <element signature="e#9699#9705#0#HTML" expanded="true" />
+            <element signature="e#9705#9711#0#HTML" expanded="true" />
+            <element signature="e#9711#9717#0#HTML" expanded="true" />
+            <element signature="e#9717#9723#0#HTML" expanded="true" />
+            <element signature="e#9723#9729#0#HTML" expanded="true" />
+            <element signature="e#9795#9801#0#HTML" expanded="true" />
+            <element signature="e#9801#9807#0#HTML" expanded="true" />
+            <element signature="e#9807#9813#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

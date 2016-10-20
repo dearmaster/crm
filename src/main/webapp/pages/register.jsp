@@ -195,45 +195,47 @@
 <body>
 <form action="<%= ctx%>/user/register.do" method="post" id="registerForm">
     <div style="margin:0 auto; width:350px;">
+        <h1 class="text-danger text-center">用户注册</h1>
+        <br>
         <div class="form-group form-inline">
-            <label>&ensp;用户名&ensp;&emsp;</label>
+            &ensp;用户名&ensp;&emsp;
             <input type="text" name="credential.username" class="form-control" />
         </div>
         <div class="form-group form-inline">
-            <label>&ensp;密&emsp;码&ensp;&emsp;</label>
+            &ensp;密&emsp;码&ensp;&emsp;
             <input type="password" name="credential.password" class="form-control" />
         </div>
         <div class="form-group form-inline">
-            <label>确认密码&emsp;</label>
+            确认密码&emsp;
             <input type="password" name="password_confirm" class="form-control" />
         </div>
         <div class="form-group form-inline">
-            <label>真实姓名&emsp;</label>
+            真实姓名&emsp;
             <input type="text" name="user.name" class="form-control" />
         </div>
         <div class="form-group form-inline">
-            <label>&ensp;性&emsp;别&ensp;&emsp;&emsp;&emsp;&emsp;</label>
+            &ensp;性&emsp;别&ensp;&emsp;&emsp;&emsp;&emsp;
             <input type="radio" name="user.gender" value="男">男&emsp;&emsp;
             <input type="radio" name="user.gender" value="女" checked>女
         </div>
         <div class="form-group form-inline">
-            <label>&ensp;住&emsp;址&ensp;&emsp;</label>
+            &ensp;住&emsp;址&ensp;&emsp;
             <input type="text" name="user.address" class="form-control" />
         </div>
         <div class="form-group form-inline">
-            <label>&ensp;邮&emsp;箱&ensp;&emsp;</label>
+           &ensp;邮&emsp;箱&ensp;&emsp;
             <input type="text" name="user.mail" class="form-control" />
         </div>
         <div class="form-group form-inline">
-            <label>&ensp;电&emsp;话&ensp;&emsp;</label>
+            &ensp;电&emsp;话&ensp;&emsp;
             <input type="text" name="user.phone" class="form-control" />
         </div>
         <div class="form-group form-inline">
-            <label>&ensp;生&emsp;日&ensp;&emsp;</label>
+            &ensp;生&emsp;日&ensp;&emsp;
             <input class="form_datetime form-control" type="text" name="user.birthday" value="1990-01-07" readonly>
         </div>
-
-        <button type="submit" class="btn btn-primary">注册</button>
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        <button type="submit" class="btn btn-primary">注册</button>&emsp;&emsp;&emsp;
         <button type="reset" class="btn btn-default">重置</button>
     </div>
 </form>
