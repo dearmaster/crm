@@ -78,8 +78,10 @@ public class ResourceBookImpl implements ResourceBook {
     }
 
     private boolean availableInContext(ResourceBookType type, String value) {
-        String sessionId = loockupContext(type, value);
-        return (sessionId==null || sessionId.equals(this.getSession().getId()));
+        String bookedSessionIdIn = loockupContext(type, value);
+        String currentSessionId = this.getSession().getId();
+        boolean ret = (bookedSessionIdIn==null || bookedSessionIdIn.equals(currentSessionId));
+        return ret;
     }
 
     private boolean availableInDb(ResourceBookType type, String value) {

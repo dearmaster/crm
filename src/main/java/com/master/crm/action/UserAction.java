@@ -65,7 +65,7 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
     }
 
     public String validateUsername() throws Exception {
-        boolean ret = resourceBook.book(ResourceBookType.USERNAME, "test");
+        boolean ret = resourceBook.book(ResourceBookType.USERNAME, credential.getUsername());
         this.jsonResult = String.valueOf(ret);
         return SUCCESS;
     }
