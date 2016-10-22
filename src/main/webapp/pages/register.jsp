@@ -175,7 +175,7 @@
                 // Get the BootstrapValidator instance
                 var bv = $form.data('bootstrapValidator');
                 // Use Ajax to submit form data
-                $.post("<%= ctx%>/user/register.do", $form.serialize(), function (data) {
+                $.post("<%= ctx%>/user/registerUser.do", $form.serialize(), function (data) {
                     console.log(data)
                     if (data.Status == "ok") {
                         window.location.href = "<%= ctx%>/index.jsp";
@@ -185,7 +185,7 @@
                     }
                     else {
                         //alert("未知错误");
-                        alert(data);
+                        //alert(data);
                     }
                 });
             });
@@ -193,7 +193,7 @@
     </script>
 </head>
 <body>
-<form action="<%= ctx%>/user/register.do" method="post" id="registerForm">
+<form id="registerForm">
     <div style="margin:0 auto; width:350px;">
         <h1 class="text-danger text-center">用户注册</h1>
         <br>
