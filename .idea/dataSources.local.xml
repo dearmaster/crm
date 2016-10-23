@@ -5,5 +5,15 @@
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
       <secret-storage>memory</secret-storage>
     </data-source>
+    <data-source name="DearDerby" uuid="29871a21-24ef-47f0-9e03-9c7a985f69d1">
+      <database-info product="Apache Derby" version="10.12.1.1 - (1704137)" jdbc-version="4.2" driver-name="Apache Derby Embedded JDBC Driver" driver-version="10.12.1.1 - (1704137)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>fish</user-name>
+      <introspection-scope>:FISH,APP</introspection-scope>
+      <resolve-scope>:FISH,APP</resolve-scope>
+    </data-source>
   </component>
 </project>
