@@ -12,8 +12,8 @@
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>fish</user-name>
-      <introspection-scope>:FISH,APP</introspection-scope>
-      <resolve-scope>:FISH,APP</resolve-scope>
+      <introspection-scope>:APP,FISH</introspection-scope>
+      <resolve-scope>:APP,FISH</resolve-scope>
     </data-source>
   </component>
 </project>
