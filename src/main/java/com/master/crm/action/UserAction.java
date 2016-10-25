@@ -33,7 +33,7 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
     private HttpServletRequest request;
 
     /**
-     * The result must be formated like {"valid": true} or {"valid": false}
+     * The result must be formatted like {"valid": true} or {"valid": false}
      * otherwise can't be parsed by the bootstrap validation
      */
     private Object valid;
