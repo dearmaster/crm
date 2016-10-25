@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
@@ -40,6 +41,17 @@ public class ResourceBookImpl implements ResourceBook {
                     resource = new HashMap<String, String>();
                     bookedResources.put(type, resource);
                 }
+
+                //remove the resources for the certain type booked previously
+                Iterator<Map.Entry<String, String>> it = resource.entrySet().iterator();
+                while (it.hasNext()) {
+                    Map.Entry<String, String> entry = it.next();
+                    if(this.getSession().getId().equals(entry.getValue())) {
+                        resource.remove(entry.getKey());
+                    }
+                }
+
+                //book the resource and put the mapping relation to the bookedResources
                 resource.put(value, this.getSession().getId());
                 return true;
             } finally {
