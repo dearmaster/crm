@@ -19,10 +19,10 @@
         </action>
 
         <action name="isUsernameValid" class="userAction" method="validateUsername">
-            <result type="json">
+            <!--<result type="json">
                 <param name="root">jsonResult</param>
-            </result>
-            <!--<result name="success" type="json"></result>-->
+            </result>-->
+            <result name="success" type="json"></result>
         </action>
 
     </package>

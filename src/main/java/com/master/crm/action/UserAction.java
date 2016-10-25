@@ -32,7 +32,11 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
 
     private HttpServletRequest request;
 
-    private Object jsonResult;
+    /**
+     * The result must be formated like {"valid": true} or {"valid": false}
+     * otherwise can't be parsed by the bootstrap validation
+     */
+    private Object valid;
 
     @Override
     public String execute() throws Exception {
@@ -66,7 +70,7 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
 
     public String validateUsername() throws Exception {
         boolean ret = resourceBook.book(ResourceBookType.USERNAME, credential.getUsername());
-        this.jsonResult = String.valueOf(ret);
+        this.valid = String.valueOf(ret);
         return SUCCESS;
     }
 
@@ -82,11 +86,11 @@ public class UserAction extends ActionSupport implements ServletRequestAware {
         this.credential = credential;
     }
 
-    public Object getJsonResult() {
-        return jsonResult;
+    public Object getValid() {
+        return valid;
     }
 
-    public void setJsonResult(Object jsonResult) {
-        this.jsonResult = jsonResult;
+    public void setValid(Object valid) {
+        this.valid = valid;
     }
 }
