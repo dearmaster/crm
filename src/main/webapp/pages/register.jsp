@@ -50,21 +50,21 @@
                                 min: 3,
                                 max: 16,
                                 message: '用户名长度在3到16位之间'
-                            }
-                        },
-                        remote: {
-                            url: '/user/isUsernameValid.do',
-                            message: '用户已存在',
-                            delay :  2000,//每输入一个字符，就发ajax请求，服务器压力还是太大，设置2秒发送一次ajax（默认输入一个字符，提交一次，服务器压力太大）
-                            type: 'POST'//请求方式
-                            /**自定义提交数据，默认值提交当前input value
-                             *  data: function(validator) {
+                            },
+                            remote: {
+                                url: '<%= ctx%>/user/isUsernameValid.do',
+                                message: '用户已存在',
+                                delay :  2000,//每输入一个字符，就发ajax请求，服务器压力还是太大，设置2秒发送一次ajax（默认输入一个字符，提交一次，服务器压力太大）
+                                type: 'POST'//请求方式
+                                /**自定义提交数据，默认值提交当前input value
+                                 *  data: function(validator) {
                                return {
                                    password: $('[name="passwordNameAttributeInYourForm"]').val(),
                                    whatever: $('[name="whateverNameAttributeInYourForm"]').val()
                                };
                             }
-                             */
+                                 */
+                            }
                         }
                     },
                     'credential.password': {
